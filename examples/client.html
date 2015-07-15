@@ -4,9 +4,14 @@
     <script src="http://localhost:5555/socket.io/socket.io.js"></script>
     <script>
       var socket = io.connect('http://localhost:5555/locations');
-      socket.on('initialize', function(data) {
-        console.log(data);
-        socket.emit('message', {hello: 'world from client'});
+
+      socket.on('initialize', function(payload) {
+        console.log(payload);
+        socket.emit('fromClient', {hello: 'world from client'});
+      });
+
+      socket.on('fromApi', function(payload) {
+        console.log(payload);
       });
     </script>
   </body>

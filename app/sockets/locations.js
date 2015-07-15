@@ -6,7 +6,7 @@ export default (socket) => {
     ]);
   }, 1000);
 
-  socket.on('message', function(data) {
-    console.log(data);
+  socket.on('fromClient', function(payload) {
+    console.log(payload);
   });
 };

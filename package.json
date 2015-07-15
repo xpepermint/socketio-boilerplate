@@ -1,0 +1,26 @@
+{
+  "name": "socketio-boilerplate",
+  "version": "1.0.0",
+  "description": "Super simple socket.io server template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpepermint/socketio-boilerplate.git"
+  },
+  "keywords": [
+    "socket",
+    "socket.io",
+    "live",
+    "server",
+    "update"
+  ],
+  "author": "Xpepermint",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xpepermint/socketio-boilerplate/issues"
+  },
+  "homepage": "https://github.com/xpepermint/socketio-boilerplate#readme"
+}

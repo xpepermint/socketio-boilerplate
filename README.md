@@ -18,13 +18,8 @@ Follow these steps to start developing your next Socket.io app.
 
 * Open `./examples/client.html` file with your browser and check the logs.
 
-# Wiki
+# Related Projects
 
-## Send message from API server to all connected clients
+* [express-api-boilerplate](https://github.com/xpepermint/express-api-boilerplate)
 
-If you need to broadcast an event from a different process which has nothing to do with this socket.io server then you must use [socket.io-emitter](https://github.com/automattic/socket.io-emitter). The message will be published directly to Redis instance and the socket server will grab it from there and send it to all connected clients.
-
-```js
-var io = require('socket.io-emitter')({host: 'localhost', port: 6379});
-io.of('/locations').emit('fromApi', 'Message from API server.');
-```
+* [isomorphic-react-flux-boilerplate](https://github.com/xpepermint/isomorphic-react-flux-boilerplate)

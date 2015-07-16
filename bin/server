@@ -3,9 +3,10 @@
 import socketio from 'socket.io';
 import http from 'http';
 import app from '..';
+import config from '../config';
 
 let server = http.createServer();
 let io = socketio(server);
 
 app(io);
-server.listen(process.env.PORT || '5555', process.env.HOST || '0.0.0.0');
+server.listen(config.socketServerPort, config.socketServerHost);

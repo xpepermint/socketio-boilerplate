@@ -4,6 +4,8 @@
 
 * Cluster mode using [Redis](http://redis.io)
 
+* Centralized configuration
+
 * ES6 syntax
 
 # Setup

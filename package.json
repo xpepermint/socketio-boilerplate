@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/xpepermint/socketio-boilerplate#readme",
   "dependencies": {
+    "axios": "^0.5.4",
     "babel": "^5.6.23",
     "express": "^4.13.1",
     "redis": "^0.12.1",

@@ -6,11 +6,13 @@
 
 * Centralized configuration
 
+* Api integration
+
 * ES6 syntax
 
 # Setup
 
-Follow these steps to start developing your next Socket.io app.
+This app is configure to work with [express-api-boilerplate](https://github.com/xpepermint/express-api-boilerplate) out of the box. To quickly run the application without modifying it, make sure that the api is running, then follow the steps below to start developing your next React app.  
 
 * Download this project source `git clone https://github.com/xpepermint/socketio-boilerplate`.
 

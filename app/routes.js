@@ -1,8 +1,8 @@
-import locations from './sockets/locations';
+import stats from './sockets/stats';
 import requireAuthentication from './middlewares/requireAuthentication';
 
 export default (io) => {
-  io.of('/locations')
-    .use(requireAuthentication)
-    .on('connection', locations);
+  io.of('/stats')
+    //.use(requireAuthentication)
+    .on('connection', stats);
 };

@@ -2,7 +2,7 @@
 
 import socketio from 'socket.io';
 import http from 'http';
-import app from '..';
+import app from '../app';
 import config from '../config';
 
 let server = http.createServer();

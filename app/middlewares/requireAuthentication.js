@@ -1,5 +1,7 @@
 export default (socket, next) => {
-  let accessToken = socket.request._query.accessToken;
+  console.log(socket.request._cookie)
+  console.log(socket.request._cookies)
+  let accessToken = socket.request._query.accessToken || socket.request.cookies.accessToken;
   if (accessToken) { // validate token
     next();
   } else {

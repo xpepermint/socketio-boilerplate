@@ -1,4 +1,4 @@
-#!/usr/bin/env ./node_modules/.bin/babel-node --stage 0
+#!/usr/bin/env ./node_modules/.bin/babel-node
 
 import socketio from 'socket.io';
 import http from 'http';

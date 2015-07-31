@@ -4,7 +4,7 @@ import config from '../../config';
 export default (socket) => {
   setInterval(() => {
     axios.get(`${config.apiBaseUrl}/stats`).then(res => {
-      socket.emit('initialize', res.data);
+      socket.emit('initialize', res);
     }).catch(console.log);
   }, 1000);
 
